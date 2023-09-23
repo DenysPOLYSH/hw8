@@ -1,0 +1,42 @@
+.text-box h3:nth-child(odd) {
+    color: pink;
+}
+.text-box p[id='greycol']{
+    color: gray;
+}
+.red{
+    color: red;
+}
+.text-box p:nth-of-type(3) {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+.first li:nth-child(1){
+    color: blue;
+}
+.second li:first-child{
+    color: yellow;
+}
+.third li:last-child{
+    color: pink;
+}
+.fourth li:nth-child(n+4){
+    color: green;
+}
+.five li:nth-child(-n+2){
+    color: brown;
+}
+.first .algebra:hover{
+    background-color: black;
+}
+.second .geometry:focus{
+    background-color: blue;
+}
+a:focus{
+    background-color: olivedrab;
+}
+button:disabled{
+    background-color: aqua;
+}
